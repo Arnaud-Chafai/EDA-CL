@@ -1,7 +1,5 @@
 # EDA-CL
-Análisis descriptivo del futuro del Petróleo. Partí de un dataset de Yahoo Finance con datos OHLC (open, high, low, close) de temporalidad diaria, con el objetivo de realizar un análisis predictivo.
-
-Análisis Descriptivo del Futuro del Petróleo
+### Análisis descriptivo del futuro del Petróleo. Partí de un dataset de Yahoo Finance con datos OHLC (open, high, low, close) de temporalidad diaria, con el objetivo de realizar un análisis predictivo.
 
 Este proyecto se enfoca en el análisis descriptivo y correlacional del mercado del petróleo. Partiendo de un dataset de Yahoo Finance con datos OHLC (open, high, low, close) de temporalidad diaria, el dataset fue enriquecido con datos adicionales obtenidos mediante técnicas de web scraping. Posteriormente, se realizaron procesos de fusión, limpieza y estandarización de los datos.
 
@@ -15,7 +13,7 @@ El objetivo principal del proyecto es identificar ineficiencias, tendencias y co
 - NumPy (para cálculos numéricos)
 - BeautifulSoup (para web scraping)
 
-Objetivos
+- [ ]Objetivos
 
  EDA (Exploratory Data Analysis): Exploración inicial del dataset para comprender las características generales del activo (precio del petróleo).
  Análisis Correlacional: Evaluar la relación del precio del petróleo con otros activos financieros clave, como el EUR/USD, el S&P 500, el XLE (sector energético), y eventos macroeconómicos importantes que impactan el mercado energético, como los informes de la AIE (Agencia Internacional de la Energía). Además, se incluirán factores adicionales como los inventarios semanales de petróleo, importaciones y exportaciones.
