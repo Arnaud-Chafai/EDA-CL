@@ -5,9 +5,8 @@ Este proyecto se centra en el análisis descriptivo y correlacional del mercado 
 ## Tecnologías Utilizadas
 Python:
 
-- Pandas (para manipulación de datos)
+- Pandas y Numpy(para manipulación de datos)
 - Matplotlib y Seaborn (para visualización de datos)
-- NumPy (para cálculos numéricos)
 - BeautifulSoup (para web scraping)
 
 ## Estructura del Proyecto
