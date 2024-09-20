@@ -25,18 +25,23 @@ Web Scraping de Inventarios y Comercio Internacional
 
 Extracción de datos de los resultados semanales de inventarios de petróleo, así como datos de importación y exportación.
 
-## Procesamiento de datos
+## Procesamiento de Datos
 
-#### Limpieza y Estandarización:
+### Limpieza y Estandarización:
 - Corrección de errores, normalización y manejo de valores faltantes.
-#### Joins y merges
+
+### Joins y Merges:
 - Integración de datos de Yahoo Finance, inventarios y noticias en un único dataset.
-#### Tratamiento de Valores Atípicos
+
+### Tratamiento de Valores Atípicos:
 - Identificación y corrección de valores anómalos.
-#### Formateo de Fechas
+
+### Formateo de Fechas:
 - Estandarización de las fechas para análisis temporal.
-#### Creación y Categorización de Variables
+
+### Creación y Categorización de Variables:
 - Generación de nuevas variables y categorización de datos clave.
+
 
 ## Objetivo:
 El proyecto busca comprender el comportamiento del petróleo y su evaluación con la economía, analizando el impacto de su oferta y demanda. Además, se enfoca en identificar ineficiencias, tendencias y correl-aciones que serán utilizadas para un futuro análisis predictivo, ayudando en la toma de decisiones de inversión.
