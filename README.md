@@ -13,6 +13,7 @@ Python:
 ## Estructura del Proyecto
 Se obtienen datos de Yahoo Finance, OHLC (Open, High, Low, Close), que son precios de apertura, máximos, mínimos y cierre diarios, para los siguientes activos:
 
+![Diagrama de la estructura del proyecto](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Diagrama%20de%20la%20estructura%20del%20proyecto.drawio.png)
 - CL (Futuros del Petróleo Crudo)
 - Índice S&P 500
 - EUR/USD (Euro frente al dólar)
@@ -29,16 +30,12 @@ Extracción de datos de los resultados semanales de inventarios de petróleo, as
 
 ### Limpieza y Estandarización:
 - Corrección de errores, normalización y manejo de valores faltantes.
-
 ### Joins y Merges:
 - Integración de datos de Yahoo Finance, inventarios y noticias en un único dataset.
-
 ### Tratamiento de Valores Atípicos:
 - Identificación y corrección de valores anómalos.
-
 ### Formateo de Fechas:
 - Estandarización de las fechas para análisis temporal.
-
 ### Creación y Categorización de Variables:
 - Generación de nuevas variables y categorización de datos clave.
 
