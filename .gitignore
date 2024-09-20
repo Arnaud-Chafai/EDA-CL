@@ -22,3 +22,9 @@ rad.json
 TestResults.xml
 #eliminar csv
 *.csv
+#eliminar.url
+*.url
+#eliminar .pdf
+*.pdf
+#eliminar .png
+*.png
