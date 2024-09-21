@@ -49,12 +49,12 @@ Extracción de datos de los resultados semanales de inventarios de petróleo, as
 ### Análisis Descriptivo
 - Exploración de las características generales de la exportaciones de barriles.
 - Visualización de tendencias de las exportaciones.
-![Análisis Descriptivo]()
+![Análisis Descriptivo](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/exportaci%C3%B3n.png)
 
 ### Análisis Correlacional
 - Evaluación de la relación entre el precio del petróleo y otros activos financieros.
 - Identificación de correlaciones con eventos macroeconómicos y datos de inventarios.
-![Análisis Correlacional](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/exportaci%C3%B3n.png)
+![Análisis Correlacional](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/correlaci%C3%B3n.png)
 
 ### Filtrados de Días en Máximos Históricos
 - Un ejemplo del análisis es este filtro que identifica los días en máximos históricos y 
