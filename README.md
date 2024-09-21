@@ -62,4 +62,4 @@ Extracción de datos de los resultados semanales de inventarios de petróleo, as
 ![Máximos Históricos](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Maximos%20historicos.png)
 
 ## Objetivo:
-El proyecto busca comprender el comportamiento del petróleo y su evaluación con la economía, analizando el impacto de su oferta y demanda. Además, se enfoca en identificar ineficiencias, tendencias y correl-aciones que serán utilizadas para un futuro análisis predictivo, ayudando en la toma de decisiones de inversión.
+El proyecto busca comprender el comportamiento del petróleo y su evaluación con la economía, analizando el impacto de su oferta y demanda. Además, se enfoca en identificar ineficiencias, tendencias y correlaciones que serán utilizadas para un futuro análisis predictivo, ayudando en la toma de decisiones de inversión.
