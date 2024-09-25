@@ -21,7 +21,7 @@ Se obtienen datos de Yahoo Finance, OHLC (Open, High, Low, Close), que son preci
 ## Web Scraping de Noticias
 
 Extracción de noticias relevantes con impacto directo en el mercado energético desde la página oficial de la Agencia Internacional de la Energía (AIE), utilizando técnicas de web scraping.
-Web Scraping de Inventarios y Comercio Internacional
+Web Scraping de Inventarios y Comercio Internacional.
 
 Extracción de datos de los resultados semanales de inventarios de petróleo, así como datos de importación y exportación.
 
