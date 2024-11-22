@@ -53,6 +53,8 @@ Además, se realizó web scraping para recopilar:
    - La varianza total explicada fue del 53% con tres componentes principales.  
    - **Variables clave:** exportación diaria, producción acumulativa y reservas semanales.  
 2. Se utilizó el método del codo y la silueta para determinar el número óptimo de clusters (k=3).
+
+
 ![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Contribucion_PCA.png) 
 
 ### Resultados:  
