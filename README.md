@@ -43,6 +43,7 @@ Además, se realizó web scraping para recopilar:
 2. **Análisis Correlacional:** Relación entre el precio del petróleo, inventarios y eventos macroeconómicos.  
 3. **Identificación de Patrones:** Filtrado de días clave (máximos históricos, eventos económicos) y análisis de comportamiento.  
 
+![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Importacion.png)  
 ---
 
 ## Clustering (Continuación del EDA)  
@@ -51,7 +52,8 @@ Además, se realizó web scraping para recopilar:
 1. Se analizaron 60 variables utilizando PCA para reducir la dimensionalidad.  
    - La varianza total explicada fue del 53% con tres componentes principales.  
    - **Variables clave:** exportación diaria, producción acumulativa y reservas semanales.  
-2. Se utilizó el método del codo y la silueta para determinar el número óptimo de clusters (k=3).  
+2. Se utilizó el método del codo y la silueta para determinar el número óptimo de clusters (k=3).
+![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/PCA.png)  
 
 ### Resultados:  
 Los clusters identificados fueron perfilados y desnormalizados, obteniendo tres grupos principales:  
@@ -63,6 +65,7 @@ Los clusters identificados fueron perfilados y desnormalizados, obteniendo tres 
 - Visualización de coeficientes de silueta y distancias entre centroides para verificar consistencia.  
 - Relación entre importación, exportación y variables como volatilidad y rango diario.  
 
+![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Perfilado.png)  
 ---
 
 ## Conclusiones  
