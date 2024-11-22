@@ -77,6 +77,3 @@ El análisis permitió identificar patrones clave en el mercado del petróleo:
 3. **Reservas bajas con alta importación:**  
    - Tiende a reducir los precios del petróleo, lo que fortalece el dólar.  
 
-Estos resultados proporcionan una base sólida para futuros análisis predictivos y toma de decisiones de inversión.  
-
----
