@@ -41,8 +41,9 @@ Además, se realizó web scraping para recopilar:
 
 1. **Análisis Descriptivo:** Visualización de tendencias en exportación, importación y producción diaria.  
 2. **Análisis Correlacional:** Relación entre el precio del petróleo, inventarios y eventos macroeconómicos.  
-3. **Identificación de Patrones:** Filtrado de días clave (máximos históricos, eventos económicos) y análisis de comportamiento.  
+3. **Identificación de Patrones:** Filtrado de días clave (máximos históricos, eventos económicos) y análisis de comportamiento.
 
+![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Matriz.png)  
 ![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Rachas_importacion.png)  
 ---
 
@@ -60,7 +61,8 @@ Los clusters identificados fueron perfilados y desnormalizados, obteniendo tres 
 - **High_Production_Export:** Alta producción y exportación; importación baja.  
 - **Low_Reserves_Activity:** Reservas bajas y actividad reducida.  
 
-![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Perfilado.png)  
+![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Perfilado.png)
+![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Densidad.png)  
 
 ### Análisis Complementario:  
 - Visualización de coeficientes de silueta y distancias entre centroides para verificar consistencia.  
@@ -81,5 +83,5 @@ El análisis permitió identificar patrones clave en el mercado del petróleo:
 3. **Reservas bajas con alta importación:**  
    - Tiende a reducir los precios del petróleo, lo que fortalece el dólar.  
 
-![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Densidad.png)  
+ 
 
