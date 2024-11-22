@@ -47,13 +47,12 @@ Además, se realizó web scraping para recopilar:
 ---
 
 ## Clustering (Continuación del EDA)  
-
+![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Contribucion_PCA.png) 
 ### Metodología:  
 1. Se analizaron 60 variables utilizando PCA para reducir la dimensionalidad.  
    - La varianza total explicada fue del 53% con tres componentes principales.  
    - **Variables clave:** exportación diaria, producción acumulativa y reservas semanales.  
 2. Se utilizó el método del codo y la silueta para determinar el número óptimo de clusters (k=3).
-![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Contribucion_PCA.png)  
 
 ### Resultados:  
 Los clusters identificados fueron perfilados y desnormalizados, obteniendo tres grupos principales:  
@@ -61,11 +60,13 @@ Los clusters identificados fueron perfilados y desnormalizados, obteniendo tres 
 - **High_Production_Export:** Alta producción y exportación; importación baja.  
 - **Low_Reserves_Activity:** Reservas bajas y actividad reducida.  
 
+![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Perfilado.png)  
+
 ### Análisis Complementario:  
 - Visualización de coeficientes de silueta y distancias entre centroides para verificar consistencia.  
 - Relación entre importación, exportación y variables como volatilidad y rango diario.  
 
-![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Perfilado.png)  
+
 ---
 
 ## Conclusiones  
