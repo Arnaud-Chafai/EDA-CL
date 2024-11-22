@@ -1,5 +1,5 @@
 # Análisis Descriptivo del Futuro del Petróleo
-
+![Crude]([https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/Caratula.jpg](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/crude%20oil.jpg))
 Este proyecto se centra en el análisis descriptivo y correlacional del mercado del petróleo . A partir de los datos diarios OHLC (Open, High, Low, Close) obtenidos de Yahoo Finance, el conjunto de datos ha sido enriquecido con información adicional recopilada mediante técnicas de web scraping . Posteriormente, se llevaron a cabo procesos de fusión , limpieza y estandarización para asegurar la calidad y consistencia de los datos.
 
 ## Tecnologías Utilizadas
