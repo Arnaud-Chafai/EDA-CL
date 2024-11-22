@@ -57,6 +57,7 @@ Además, se realizó web scraping para recopilar:
 
 ![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Contribucion_PCA.png) 
 
+
 ### Resultados:  
 Los clusters identificados fueron perfilados y desnormalizados, obteniendo tres grupos principales:  
 - **High_Import:** Alta importación y volatilidad.  
@@ -64,6 +65,9 @@ Los clusters identificados fueron perfilados y desnormalizados, obteniendo tres 
 - **Low_Reserves_Activity:** Reservas bajas y actividad reducida.  
 
 ![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Perfilado.png)
+
+--
+
 ![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Densidad.png)  
 
 ### Análisis Complementario:  
