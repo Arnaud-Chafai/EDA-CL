@@ -66,7 +66,6 @@ Los clusters identificados fueron perfilados y desnormalizados, obteniendo tres 
 
 ![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Perfilado.png)
 
---
 
 ![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Densidad.png)  
 
