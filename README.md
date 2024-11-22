@@ -1,60 +1,82 @@
-# Análisis Descriptivo del Petróleo
-![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/crude%20oil.jpg)
+# Análisis Descriptivo del Petróleo  
+![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/crude%20oil.jpg)  
 
-Este proyecto se centra en el análisis descriptivo y correlacional del mercado del petróleo . A partir de los datos diarios OHLC (Open, High, Low, Close) obtenidos de Yahoo Finance, el conjunto de datos ha sido enriquecido con información adicional recopilada mediante técnicas de web scraping . Posteriormente, se llevaron a cabo procesos de fusión , limpieza y estandarización para asegurar la calidad y consistencia de los datos.
+Este proyecto es una continuación del EDA, enfocado en un análisis descriptivo, correlacional y de clustering del mercado del petróleo. A partir de datos OHLC (Open, High, Low, Close) obtenidos de Yahoo Finance, y enriquecidos con información adicional recopilada mediante web scraping, se han llevado a cabo procesos de limpieza, estandarización y fusión para garantizar la consistencia de los datos.
+
 ---
 
-## Tecnologías Utilizadas
-Python:
+## Tecnologías Utilizadas  
+**Python:**  
+- Pandas y Numpy  
+- Matplotlib y Seaborn  
+- BeautifulSoup (para web scraping)  
+- Scikit-learn  
 
-- Pandas y Numpy
-- Matplotlib y Seaborn
-- BeautifulSoup (para web scraping)
+---
 
-## Estructura del Proyecto
-Se obtienen datos de Yahoo Finance, OHLC (Open, High, Low, Close), que son precios de apertura, máximos, mínimos y cierre diarios, para los siguientes activos:
-- CL (Futuros del Petróleo Crudo)
-- Índice S&P 500
-- EUR/USD (Euro frente al dólar)
-- XLE (ETF del sector energético)
+## Estructura del Proyecto  
 
-## Web Scraping de Noticias
+### Datos:  
+Se trabajó con datos OHLC de los siguientes activos:  
+- **CL**: Futuros del Petróleo Crudo  
+- **S&P 500**: Índice bursátil  
+- **EUR/USD**: Tipo de cambio euro-dólar  
+- **XLE**: ETF del sector energético  
 
-Extracción de noticias relevantes con impacto directo en el mercado energético desde la página oficial de la Agencia Internacional de la Energía (AIE), utilizando técnicas de web scraping.
-Web Scraping de Inventarios y Comercio Internacional.
+Además, se realizó web scraping para recopilar:  
+- **Noticias relevantes** de la Agencia Internacional de Energía (AIE).  
+- **Datos semanales de inventarios**, importación y exportación de petróleo.  
 
-Extracción de datos de los resultados semanales de inventarios de petróleo, así como datos de importación y exportación.
+---
 
-## Procesamiento de Datos
+## Procesamiento de Datos  
 
-### Limpieza y Estandarización:
-- Corrección de errores, normalización y manejo de valores faltantes.
+1. **Limpieza y Estandarización:** Normalización de datos, manejo de valores nulos y corrección de outliers.  
+2. **Joins y Merges:** Fusión de datos financieros, inventarios y noticias en un único dataset.  
+3. **Creación de Variables Nuevas:** Generación de variables categóricas y continuas para análisis descriptivo y predictivo.  
 
-### Joins y Merges:
-- Integración de datos de Yahoo Finance, inventarios y noticias en un único dataset.
+---
 
-### Tratamiento de Valores Atípicos:
-- Identificación y corrección de valores anómalos.
+## Análisis Exploratorio de Datos  
 
-### Formateo de Fechas:
-- Estandarización de las fechas para análisis temporal.
+1. **Análisis Descriptivo:** Visualización de tendencias en exportación, importación y producción diaria.  
+2. **Análisis Correlacional:** Relación entre el precio del petróleo, inventarios y eventos macroeconómicos.  
+3. **Identificación de Patrones:** Filtrado de días clave (máximos históricos, eventos económicos) y análisis de comportamiento.  
 
-### Creación y Categorización de Variables:
-- Generación de nuevas variables y categorización de datos clave.
+---
 
-## Análisis Exploratorio de Datos
+## Clustering (Continuación del EDA)  
 
-### Análisis Descriptivo
-- Exploración de las características generales de la exportaciones de barriles.
-- Visualización de tendencias de las exportaciones.
+### Metodología:  
+1. Se analizaron 60 variables utilizando PCA para reducir la dimensionalidad.  
+   - La varianza total explicada fue del 53% con tres componentes principales.  
+   - **Variables clave:** exportación diaria, producción acumulativa y reservas semanales.  
+2. Se utilizó el método del codo y la silueta para determinar el número óptimo de clusters (k=3).  
 
-### Análisis Correlacional
-- Evaluación de la relación entre el precio del petróleo y otros activos financieros.
-- Identificación de correlaciones con eventos macroeconómicos y datos de inventarios.
+### Resultados:  
+Los clusters identificados fueron perfilados y desnormalizados, obteniendo tres grupos principales:  
+- **High_Import:** Alta importación y volatilidad.  
+- **High_Production_Export:** Alta producción y exportación; importación baja.  
+- **Low_Reserves_Activity:** Reservas bajas y actividad reducida.  
 
-### Filtrados de Días en Máximos Históricos
-- Un ejemplo del análisis es este filtro que identifica los días en máximos históricos y 
- muestra sus descripciones estadísticas, destacando patrones de comportamiento del precio.
+### Análisis Complementario:  
+- Visualización de coeficientes de silueta y distancias entre centroides para verificar consistencia.  
+- Relación entre importación, exportación y variables como volatilidad y rango diario.  
 
-## Objetivo:
-El proyecto busca comprender el comportamiento del petróleo y su evaluación con la economía, analizando el impacto de su oferta y demanda. Además, se enfoca en identificar ineficiencias, tendencias y correlaciones que serán utilizadas para un futuro análisis predictivo, ayudando en la toma de decisiones de inversión.
+---
+
+## Conclusiones  
+
+El análisis permitió identificar patrones clave en el mercado del petróleo:  
+1. **Impacto de la importación:**  
+   - Cuando la importación semanal aumenta y la producción baja, el petróleo sube y el dólar tiende a bajar.  
+
+2. **Alta producción y exportación:**  
+   - Produce un mercado más estable, con volatilidad y rango diario normales.  
+
+3. **Reservas bajas con alta importación:**  
+   - Tiende a reducir los precios del petróleo, lo que fortalece el dólar.  
+
+Estos resultados proporcionan una base sólida para futuros análisis predictivos y toma de decisiones de inversión.  
+
+---
