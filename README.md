@@ -44,7 +44,7 @@ Además, se realizó web scraping para recopilar:
 3. **Identificación de Patrones:** Filtrado de días clave (máximos históricos, eventos económicos) y análisis de comportamiento.
 
 ![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Matriz.png)  
-![Crude](https://github.com/Arnaud-Chafai/EDA-CL/blob/main/Screenshots/Rachas_importacion.png)  
+
 ---
 
 ## Clustering (Continuación del EDA)  
